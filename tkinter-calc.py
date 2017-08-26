@@ -49,13 +49,13 @@ def click_event(key):
 	# $ -> clear display		
     elif key == '$':
         display.delete(0, tk.END)
-        display.insert(tk.END, "$$$$C.$R.$E.$A.$M.$$$$")
+        display.insert(tk.END, "Paolo Caviedes")
 		
 
 	# @ -> clear display		
     elif key == '@':
         display.delete(0, tk.END)
-        display.insert(tk.END, "website")		
+        display.insert(tk.END, "github.com/paolocaviedes")		
 
 		
 	# neg -> negate term
