@@ -4,6 +4,7 @@ calc = tk.Tk()
 calc.title("CrappyCalc")
 
 buttons = [
+'(',  ')',  '[',  ']',  '',
 '7',  '8',  '9',  '*',  'C',
 '4',  '5',  '6',  '/',  'Neg',
 '1',  '2',  '3',  '-',  '$',
@@ -54,7 +55,7 @@ def click_event(key):
 	# @ -> clear display		
     elif key == '@':
         display.delete(0, tk.END)
-        display.insert(tk.END, "wwwwwwwwwwwwwwwwebsite")		
+        display.insert(tk.END, "website")		
 
 		
 	# neg -> negate term
