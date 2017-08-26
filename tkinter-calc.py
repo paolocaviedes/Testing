@@ -1,7 +1,7 @@
 import Tkinter as tk
 
 calc = tk.Tk()
-calc.title("CrappyCalc")
+calc.title("Calculadora Unab")
 
 buttons = [
 '(',  ')',  '[',  ']',  '',
